@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /obrigado
+Disallow: /continuar
+Disallow: /materiais/
+Sitemap: https://depoisdoamem.vercel.app/sitemap.xml
