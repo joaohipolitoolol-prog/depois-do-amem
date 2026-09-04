@@ -20,6 +20,7 @@ document.querySelectorAll('.buy-button').forEach((button) => {
     allowed.forEach((key) => {
       if (current.has(key) && !destination.searchParams.has(key)) destination.searchParams.set(key, current.get(key));
     });
+    window.AMEM_TRACK?.initiateCheckout?.();
     window.location.assign(destination.href);
   });
 });
